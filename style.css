@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin:0;
+}
+
+#particles-js {
+	max-width: 100%;
+	height: 5vh;
+	background: black;
+}
+
+body{
+	font-family: 'Lato'; sans-serif;
+	background-color: #faf9f6;
+	color: #333;
+}
+
+h1, h2 {
+	font-weight: 500;
+	line-height: 1.2;
+	margin: 10px 0;
+	color: white;
+ }
+ 
+p {
+	margin: 20px 0;
+	
+}
+
+img {
+	
+	width: 50%;
+	height: 50%;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+
+
+
+#dropdown{
+	background-color: #131522;
+	border: none;
+	border-radius: 4px;
+	display: inline-block;
+	text-align: left;
+	font-family: Helvetica;
+	padding: 10px 40px 10px 8px;
+	color: white;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	border-right: 16px;
+	
+}
+
+.placeholder{
+text-align: center;
+font-size: 20px;
+margin-right: 40px;
+margin-left: 40px;
+
+}
+
+.placeholder img {
+
+	/*width: 20%;
+	height: auto;
+	border-radius: 20px;*/
+	width: 20%;
+	height: auto;
+	
+	
+	
+
+}
+
+.button{
+	display: inline;
+	padding: 10px 30px;
+	cursor: pointer;
+	background: #ff1dce; /*#0B3D91; */
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-right:10px;
+	
+}
+
+.errorMessage img{
+
+	/*width: 40%;
+	height: 40%;
+	border-radius: 30px;
+	padding: 20px;*/
+	
+	width: 50%;
+	height: auto;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+.main{
+	height: 350px;
+	background-color: #131522;
+	color: #fff;
+	/*position: relative;*/
+	padding: 20px;
+		
+}
+
+.main h1{
+	font-size: 40px;
+	
+}
+
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 40px;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.container{
+	max-width: 1100px;
+	margin: 0 auto; /* auto left and right */
+	/*overflow: auto; /*removes space above due to h1 margin of 10px */
+	padding: 0 50px; /* 0 top and bottom 40 left and right*/
+}
+
+
+
+.button2{
+	display: inline;
+	padding: 10px 30px;
+	cursor: pointer;
+	background: blue;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.button3{
+	display: inline;
+	padding: 10px 30px;
+	cursor: pointer;
+	background: #131522;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin-top: 20px;
+	
+}
+
+.card{
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+	padding: 20px;
+	margin: 10px;
+	color:#333;
+}
+
+.card h2{
+	color: #333;
+	padding-bottom: 10px;
+}
+
+.search input[type='text']{
+	border: 0;
+	border-bottom: 1px solid #b4becb;
+	width : 80%;
+	padding: 3px;
+	font-size: 16px;
+}
+
+.search input:focus{
+	outline: none;
+}
+
+/*.button:hover {
+	transform: scale(0.99);
+} Looks rubbish in FF*/
+
+.footer{
+	
+	display: flex;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	position: fixed;
+	background-color: #131522;
+	justify-content: center;
+	align-items: center;
+	
+	text-align: center;
+	background-color: #131522;
+	color: white;
+	padding:10px;
+}
+
+.footer h2{
+	color: white;
+	font-size: 15px;
+}
+.footer img{
+	display: inline-block;
+	max-width: 100px;
+	max-height: 100px;
+	
+
+}
+.details{
+	background-color: #faf9f6;
+	padding: 20px;
+	margin:20px;
+	margin-top: 0px;
+	max-height: 100%;
+	position: relative;
+}
+
+.pic {
+	border-radius: 20%;
+	
+}
+
+.zoom{
+ transition: transform .5s;
+
+}
+.zoom:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
+#mars {
+	text-align: center;	
+	padding-bottom: 250px;
+	
+}
+
+#error{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.errorImage{
+	border-radius: 10%;
+	width: 40%;
+}
+
+.errorMessage{
+	font-size: 200%;
+	text-align: center;
+	padding: 20px;
+}
+
+.errorMessage img{
+
+	width: 50%;
+	height: auto;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	}
+
+.camera{
+	font-size: 170%;
+	text-align: left;
+	padding:10px;
+	
+}
+
+.leftAlign{
+margin-left: 80px;
+margin-right: 50px;
+
+}
+
+.dateTaken{
+	font-size: 100%;
+	text-align: left;
+	padding:10px;
+}
+.landingDate{
+	font-size: 100%;
+	text-align: center;
+	padding:10px;
+}
+
+.earth{
+
+	font-size: 100%;
+	text-align: left;
+	padding:10px;
+	/*margin-right: 40px;
+	margin-left: 40px;*/
+}
+
+.earthDate{
+	font-size: 100%;
+	text-align: left;
+	padding:10px;
+	
+}
+
+/*Tablet*/
+@media(max-width: 811px) {
+/*body { display: none;} - checks viewpoint*/
+
+/*.earthDate{
+	
+	text-align: center;
+	
+	}
+
+.dateTaken{
+	
+	text-align: center;
+	
+}
+
+
+.earth{
+
+	text-align: center;
+	
+}
+
+.camera{
+	
+	text-align: center;
+	
+	
+}
+
+.leftAlign{
+margin-left: 20px;
+margin-right: 20px;
+} */
+#mars {
+	
+	padding-bottom: 120px;
+	
+}
+.grid
+{
+	grid-template-columns: 1fr;
+	height: 60%;
+	margin-bottom: 60px;
+}
+
+.main
+{
+	height: auto;
+}
+
+.main-text{
+	text-align: center;
+
+}
+
+.search{
+	justify-self: center;
+	margin: auto;
+}
+.card{
+	margin: 0px;
+}
+
+img {
+	
+	width: 90%;
+	height: 90%;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.placeholder img {
+	
+	width: 40%;
+	height: auto;
+}
+#marvin {
+	width: 30%;
+	height: 15%;
+	padding: 5px;
+
+}
+
+
+
+.leftAlign{
+margin-left: 10px;
+}
+/*.errorMessage img{
+
+	width: 70%;
+	height: 50%;
+	border-radius: 20px;
+	padding: 10px;
+	}*/
+	
+.errorMessage img{
+
+	width: 80%;
+	height: auto;
+	padding: 10px;
+	}
+	
+@media(max-width: 435px) {
+.grid
+{
+	grid-template-columns: 1fr;
+	height: 90%;
+	margin-bottom: 100px;
+}
+img {
+	
+	width: 90%;
+	height: 90%;
+	border-radius: 20px;
+	padding: 20px;
+}
+.errorMessage img{
+
+	width: 80%;
+	height: auto;
+	padding: 10px;
+	}
+	
+.placeholder img {
+	
+	width: 80%;
+	height: auto;
+	
+}
+	.earthDate{
+	
+	text-align: center;
+	
+	}
+
+.dateTaken{
+	
+	text-align: center;
+	
+}
+
+
+.earth{
+
+	text-align: center;
+	
+}
+
+.camera{
+	
+	text-align: center;
+	
+	
+}
+
+.leftAlign{
+margin-left: 20px;
+margin-right: 20px;
+} 
+
+#mars{
+margin-bottom: 40px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="mars images" content="Mars Rover Images">
+    <title>Mars Rover Images</title>
+	<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<nav id="particles-js"></nav>
+	
+	<section class="main">
+		<div class="container grid">
+			<div class="main-text">
+			<h1> Mars Curiosity Rover Photography</h1>
+			<p>Search by the rover's camera name.  Photos are organized by the sol (Martian rotation or day) on which they were taken, counting up from the rover's landing date, 6th August 2012.
+			</p>
+			</div>
+			<div class="card">
+				<div class="search">
+				<h2>Search cameras</h2>
+				<!--<input type="text" class="search-bar" placeholder="Search"/>-->
+				<select id="dropdown">
+					<option value="Select">Select </options>
+					<option value="Navcam">Navcam</option>
+					<option value="Fhaz">Fhaz</option>
+					<option value="Rhaz">Rhaz</option>
+					<option value="Chemcam">Chemcam</option>
+					<option value="Mast">Mast</option>
+					<option value="MAHLI">Mahli</option>
+					<option value="MARDI">Mardi</option>
+				</select>	
+				<button type="button" class="button" > Search</button>
+				<!--<button type="button" class="button2" onclick="refreshPage();"> Refresh</button>-->
+				</div>	
+			</div>
+		</div>
+	</section>
+	
+	<div class="details ">  
+		<div class="errorMessage">
+		</div>
+		<div class="placeholder"><img src="/C:/Users/0144600/marvin.png" alt="Marvin"/>
+			<div id="quote">
+			</div> 
+			<button type="button" class="button3" onclick="newQuote();"> Refresh</button>
+		</div>
+		<div class="leftAlign">
+			<div class="camera">
+			</div>
+			<div class="dateTaken">
+			</div>
+			<div class="earthDate">
+			</div>
+			<div class="earth">
+			</div>
+		</div>
+		<div id="mars">  
+			<img alt="" class="pic zoom"/>
+		</div>
+	</div>
+	
+	<footer class="footer">
+		<img src="/C:/Users/0144600/NASA_logo.png" alt="Nasa Logo"/>
+		<h2>Nasa &copy; 2022</h2>
+	</footer>	
+	
+<script src="./particles.json"></script>
+<script src="./particles_app.js"></script>
+<script src="./script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
